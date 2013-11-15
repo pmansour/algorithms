@@ -2,9 +2,9 @@ Compiling
 ---------
 to compile, use *make*. this will generate 3 executables:
 
-- trie
-- edit
-- mock *(you can ignore this one)*
+- **trie**
+- **edit**
+- **mock** *(you can ignore this one)*
 
 each of these files can be executed in 2 modes: **prompt** and **batch**.
 
@@ -38,5 +38,6 @@ Example use case
 
 **make**
 
-**./trie** *turgenev.txt queries.txt 1 > trie_with_1_error.out*
-**./trie** *turgenev.txt*
+**./trie** *turgenev.txt queries.txt 1 > trie_with_1_error.out* # run the program in batch mode
+
+**./trie** *turgenev.txt* # run the program in interactive mode

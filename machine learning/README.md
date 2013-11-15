@@ -1,0 +1,1 @@
+A simple (and incomplete) implementation of the ID3 algorithm for decision tree induction.
